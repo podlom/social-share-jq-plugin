@@ -19,6 +19,10 @@ $ gulp
 
 ### Settings
 ```js
+$('.your-block').angelSharePlugin()
+```
+ or
+```js
 $('.your-block').angelSharePlugin({
 	autoUtm: false, // Add utm params to share link
 	urlParams: false, // Add url params from share page
